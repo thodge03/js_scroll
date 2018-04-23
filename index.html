@@ -34,7 +34,7 @@
 		{
 			el.innerHTML = el.innerHTML+words[word_counter][character_counter++];
 
-			if(character_counter == words[word_counter].length)
+			if(character_counter == words[word_counter].length+1) //added +1 so that it runs through the final character before moving on
 			{
 				word_counter++; 	//choose a different word
 				character_counter = 0;	//start over with the first character of the word
@@ -46,7 +46,7 @@
 			}
 		}
 
-		setInterval(updateText,300);
+		setInterval(updateText,100);
 
 	</script>
 
