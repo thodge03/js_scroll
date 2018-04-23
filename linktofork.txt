@@ -1,1 +1,3 @@
+**was able to fix last letter, but not the space issue yet- will be coming back to this**
+
 https://github.com/thodge03/js_scroll
